@@ -2,8 +2,10 @@ import random
 
 ##################################################
 # Make your lambda function here
+# return greater value between x and y
 greater = lambda x, y: x if x > y else y
-filter50 =
+# lambda function to filter values greater than 50 from a list
+filter50 = lambda mylist: list(filter(lambda x: x > 50, mylist))
 ##################################################
 
 
