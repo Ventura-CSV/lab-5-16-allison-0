@@ -2,8 +2,8 @@ import random
 
 ##################################################
 # Make your lambda function here
-# greater =
-# filter50 =
+greater = lambda x, y: x if x > y else y
+filter50 =
 ##################################################
 
 
